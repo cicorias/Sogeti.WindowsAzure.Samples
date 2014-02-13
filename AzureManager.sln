@@ -5,14 +5,6 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudController", "CloudController\CloudController.csproj", "{65E981A9-BF04-4E93-BC5A-029656502137}"
 EndProject
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WindowsAzure1", "WindowsAzure1\WindowsAzure1.ccproj", "{60576A00-B418-4D76-A6B6-67BE61CA4278}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForms.Cloud.Multiple", "WebForms.Cloud.Multiple\WebForms.Cloud.Multiple.csproj", "{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForms.Cloud.Single", "WebForms.Cloud.Single\WebForms.Cloud.Single.csproj", "{371D0765-E14A-44E4-8C56-BA93BE3829E1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,38 +33,6 @@ Global
 		{65E981A9-BF04-4E93-BC5A-029656502137}.Release|x86.ActiveCfg = Release|x86
 		{65E981A9-BF04-4E93-BC5A-029656502137}.Release|x86.Build.0 = Release|x86
 		{65E981A9-BF04-4E93-BC5A-029656502137}.Release|x86.Deploy.0 = Release|x86
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Release|ARM.ActiveCfg = Release|Any CPU
-		{60576A00-B418-4D76-A6B6-67BE61CA4278}.Release|x86.ActiveCfg = Release|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Release|ARM.ActiveCfg = Release|Any CPU
-		{CE3E30F8-6F49-462D-A79B-2DFD300AEF69}.Release|x86.ActiveCfg = Release|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Release|ARM.ActiveCfg = Release|Any CPU
-		{AA1DBF58-1A0B-4DF1-9249-2817EB4317A0}.Release|x86.ActiveCfg = Release|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Release|ARM.ActiveCfg = Release|Any CPU
-		{371D0765-E14A-44E4-8C56-BA93BE3829E1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
